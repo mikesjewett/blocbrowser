@@ -15,6 +15,7 @@
  */
 
 - (void) resetWebView;
+- (void) displayWelcomeMessage;
 
 @end
 
