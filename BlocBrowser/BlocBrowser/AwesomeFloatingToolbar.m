@@ -69,11 +69,11 @@
     for (UILabel *thisLabel in self.labels) {
         NSUInteger currentLabelIndex = [self.labels indexOfObject:thisLabel];
         
-        CGFloat labelHeight = CGRectGetHeight(self.bounds) / 2;
-        CGFloat labelWidth = CGRectGetWidth(self.bounds) / 2;
+        CGFloat labelHeight = CGRectGetHeight(self.bounds) / 3;
+        CGFloat labelWidth = CGRectGetWidth(self.bounds) / 3;
         CGFloat labelX = 0;
         CGFloat labelY = 0;
-        
+
         // adjust labelX and labelY for each label
         if (currentLabelIndex < 2) {
             // 0 or 1, so on top
