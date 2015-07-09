@@ -77,23 +77,6 @@
         labelY = currentLabelIndex * labelHeight;
         labelX = 0;
         
-//        // adjust labelX and labelY for each label
-//        if (currentLabelIndex < 2) {
-//            // 0 or 1, so on top
-//            labelY = 0;
-//        } else {
-//            // 2 or 3, so on bottom
-//            labelY = CGRectGetHeight(self.bounds) / 2;
-//        }
-//        
-//        if (currentLabelIndex % 2 == 0) { // is currentLabelIndex evenly divisible by 2?
-//            // 0 or 2, so on the left
-//            labelX = 0;
-//        } else {
-//            // 1 or 3, so on the right
-//            labelX = CGRectGetWidth(self.bounds) / 2;
-//        }
-        
         thisLabel.frame = CGRectMake(labelX, labelY, labelWidth, labelHeight);
     }
 }
